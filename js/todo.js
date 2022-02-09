@@ -13,7 +13,7 @@ function handleTodoSubmit(event) {
   event.preventDefault();
   const newTodo = todoInput.value;
   todoInput.value = "";
-  console.log(newTodo);
+  /*console.log(newTodo);*/
   const newTodoObject = {
     text: newTodo,
     id: Date.now(),
