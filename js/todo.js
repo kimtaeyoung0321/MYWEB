@@ -26,6 +26,7 @@ function handleTodoSubmit(event) {
 function paintToDo(newtoDo) {
   const todoLi = document.createElement("li");
   todoLi.id = newtoDo.id;
+  /*console.log(typeof todoLi.id);*/
   const todoLiSpan = document.createElement("span");
   const button = document.createElement("button");
   todoLiSpan.innerText = newtoDo.text;
