@@ -30,7 +30,7 @@ function paintToDo(newtoDo) {
   const todoLiSpan = document.createElement("span");
   const button = document.createElement("button");
   todoLiSpan.innerText = newtoDo.text;
-  button.innerText = "✔";
+  button.innerText = "Clear";
   button.addEventListener("click", DeleteTodolistButton);
   todoLi.appendChild(todoLiSpan);
   todoLi.appendChild(button);
