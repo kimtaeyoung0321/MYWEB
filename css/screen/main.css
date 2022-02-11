@@ -1,3 +1,20 @@
+.icon {
+  font-size: 40px;
+  position: fixed;
+  top: 25px;
+  left: 40px;
+  padding: 10px 20px;
+  background-color: rgba(184, 180, 180, 0.514);
+  border-radius: 20px;
+}
+
+.fa-instagram {
+  color: white;
+  margin-right: 20px;
+}
+.fa-youtube {
+  color: red;
+}
 #greeting {
   margin-bottom: 0px;
   font-size: 75px;
@@ -13,20 +30,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 180px;
+  margin-top: 150px;
   bottom: 30px;
   color: #b8a0e9;
   font-weight: 800px;
 }
 #quote span:first-child {
   margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+}
+#quote span:last-child {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
 }
 #weather {
   position: absolute;
-  right: 10px;
-  top: 10px;
-  font-size: 30px;
+  right: 20px;
+  top: 20px;
+  font-size: 25px;
   color: wheat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #login-form input {
   outline: none;
@@ -48,13 +74,24 @@
   width: 400px;
   height: 40px;
   font-size: 20px;
+  border-radius: 15px;
   border: none;
   outline: none;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+#todo-form input::placeholder {
+  color: white;
 }
 #todo-list {
   list-style: none;
   color: #b8a0e9;
   font-size: 25px;
+  border-radius: 10px;
+  padding-left: 5px;
+}
+#todo-list li {
+  margin-bottom: 5px;
 }
 #todo-list button {
   margin-left: 30px;
