@@ -6,8 +6,16 @@
   padding: 10px 20px;
   background-color: rgba(184, 180, 180, 0.514);
   border-radius: 20px;
+  display: flex;
+  flex-direction: column;
 }
-
+.fa-github-square {
+  margin-right: 22px;
+  color: black;
+}
+.fa-spotify {
+  color: #1cf151;
+}
 .fa-instagram {
   color: white;
   margin-right: 20px;
