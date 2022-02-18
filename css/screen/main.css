@@ -9,8 +9,12 @@
   display: flex;
   flex-direction: column;
 }
+.icon_column {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
 .fa-github-square {
-  margin-right: 22px;
   color: black;
 }
 .fa-spotify {
@@ -18,7 +22,6 @@
 }
 .fa-instagram {
   color: white;
-  margin-right: 20px;
 }
 .fa-youtube {
   color: red;
