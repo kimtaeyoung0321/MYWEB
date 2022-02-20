@@ -22,3 +22,22 @@ body {
   align-items: center;
   justify-content: center;
 }
+
+#no-mobile {
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+  z-index: 99;
+  position: absolute;
+  font-size: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 770px) {
+  #no-mobile {
+    display: none;
+  }
+}

@@ -1,6 +1,7 @@
 #todo-list li button:hover {
   animation: libuttonSizeup 0.1s ease-in-out forwards;
 }
+
 .icon .fa-youtube:hover,
 .icon .fa-instagram:hover,
 .icon .fa-github-square:hover,
